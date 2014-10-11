@@ -9,7 +9,7 @@
   },
   "keywords": [
     "gui",
-	"framework"
+    "framework"
   ],
   "author": "Fred Chien",
   "license": "MIT",
@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/cfsghost/qantacy",
   "dependencies": {
+    "websocket": "~1.0.8"
   },
   "devDependencies": {
     "tape": "~3.0.0"
