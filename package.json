@@ -1,0 +1,25 @@
+{
+  "name": "qantacy",
+  "version": "0.0.1",
+  "description": "Graphical UI Framework with Node.js",
+  "main": "./lib/qantacy.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cfsghost/qantacy"
+  },
+  "keywords": [
+    "gui",
+	"framework"
+  ],
+  "author": "Fred Chien",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cfsghost/qantacy/issues"
+  },
+  "homepage": "https://github.com/cfsghost/qantacy",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "tape": "~3.0.0"
+  }
+}
