@@ -2,5 +2,8 @@ var Qantacy = require('../../');
 
 var qantacy = new Qantacy();
 
-qantacy.render('simple.qml');
+qantacy.on('ready', function() {
+	qantacy.render('simple.qml');
+});
 
+qantacy.init();
