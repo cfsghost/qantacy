@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/cfsghost/qantacy",
   "dependencies": {
-    "websocket": "~1.0.8"
+    "brig": "~0.0.2"
   },
   "devDependencies": {
     "tape": "~3.0.0"
