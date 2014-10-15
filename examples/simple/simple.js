@@ -3,7 +3,8 @@ var Qantacy = require('../../');
 var qantacy = new Qantacy();
 
 qantacy.on('ready', function() {
-	qantacy.render('simple.qml');
-});
+	console.log('ready');
 
-qantacy.init();
+	// Rendering specific QML file
+	var window = qantacy.render('simple.qml');
+});
